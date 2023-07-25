@@ -12,5 +12,7 @@ elif operation == '-':
     print(int(intA) - int(intB))
 elif operation == '/':
     print(int(intA)  / int(intB))
+elif operation == '%':
+    print(int(intA)  % int(intB))
 else:
     print ('Invalid Operation Specified')
